@@ -1,0 +1,206 @@
+Auto-Transcript Start Time:  06:46:22, 25 Nov 2022 Hora oficial do Brasil 
+Current Directory: "D:\ECL\TP2FLEJET\Etude numerique (simulation)"
+
+              Welcome to ANSYS Fluent 2022 R2
+
+              Copyright 1987-2022 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: May 27 2022 08:53:57 EDT  Build Id: 10212  
+ 
+Connected License Server List:	
+
+*********************************************
+Info: Your license enables 4-way parallel execution.
+For faster simulations, please start the application with the appropriate parallel options.
+*********************************************
+
+
+     --------------------------------------------------------------
+     This is a student version of ANSYS FLUENT. Usage of this product
+     license is limited to the terms and conditions specified in your ANSYS
+     license form, additional terms section.
+     --------------------------------------------------------------
+Host spawning Node 0 on machine "DESKTOP-Q48GHOV" (win64).
+
+-----------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                           
+-----------------------------------------------------------------------------------
+n0    DESKTOP-Q48GHOV  1/12  Windows-x64  5536   Intel(R) Core(TM) i5-10500H      
+host  DESKTOP-Q48GHOV        Windows-x64  11384  Intel(R) Core(TM) i5-10500H      
+
+MPI Option Selected: intel
+-----------------------------------------------------------------------------------
+
+Cleanup script file is D:\\ECL\\TP2FLEJET\\Etude numerique (simulation)\\cleanup-fluent-DESKTOP-Q48GHOV-11384.bat
+Fast-loading "D:\Fluent\ANSYS Inc\ANSYS Student\v222\fluent\fluent22.2.0\\addons\afd\lib\hdfio.bin"
+Done.
+Multicore SMT processors detected. Processor affinity set!
+
+Reading from DESKTOP-Q48GHOV:"D:/ECL/TP2FLEJET/Etude numerique (simulation)/simulation.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       17950 cells,     1 cell zone  ...
+          17950 quadrilateral cells,  zone id: 2
+       36240 faces,     7 face zones ...
+            250 2D axis faces,  zone id: 3
+             90 2D pressure-outlet faces,  zone id: 4
+            230 2D pressure-inlet faces,  zone id: 5
+             15 2D wall faces,  zone id: 6
+             70 2D wall faces,  zone id: 7
+             25 2D velocity-inlet faces,  zone id: 8
+          35560 2D interior faces,  zone id: 10
+       18291 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	default-interior
+	buse_interne
+	buse_levre
+	cotes
+	sortie
+	axe
+	entree
+	fluid
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Reading from DESKTOP-Q48GHOV:"D:/ECL/TP2FLEJET/Etude numerique (simulation)/simulation.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+> (cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Surfaces"))
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Surfaces"))
+(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Surfaces"))
+(cx-gui-do cx-activate-item "Surfaces*PanelButtons*PushButton2(Cancel)")
+(cx-gui-do cx-activate-item "Ribbon*Frame1*Frame2(Domain)*Table1*Table3(Surface)*PushButton1(Create)")
+(cx-gui-do cx-activate-item "MenuBar*PopupMenuCreate*Line/Rake...")
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry2(y0)" '( 14))
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry2(y0)" '( 14.75))
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry5(y1)" '( 80))
+(cx-gui-do cx-set-text-entry "Line/Rake Surface*Table1*TextEntry1(New Surface Name)" "horizontale")
+(cx-gui-do cx-activate-item "Line/Rake Surface*PanelButtons*PushButton1(OK)")
+
+Error: Surface creation failed!
+
+Error Object: #f
+(cx-gui-do cx-activate-item "Error*OK")
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry2(y0)" '( 0))
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry5(y1)" '( 0))
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry1(x0)" '( 14))
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry1(x0)" '( 14))
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry1(x0)" '( 14.75))
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry4(x1)" '( 80))
+(cx-gui-do cx-activate-item "Line/Rake Surface*PanelButtons*PushButton1(OK)")
+
+Error: Surface creation failed!
+
+Error Object: #f
+(cx-gui-do cx-activate-item "Error*OK")
+(cx-gui-do cx-activate-item "Line/Rake Surface*PanelButtons*PushButton2(Cancel)")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Surfaces|x112"))
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Surfaces|x112"))
+(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Surfaces|x112"))
+(cx-gui-do cx-activate-item "Line/Rake Surface*PanelButtons*PushButton2(Cancel)")
+(cx-gui-do cx-activate-item "Ribbon*Frame1*Frame2(Domain)*Table1*Table3(Surface)*PushButton1(Create)")
+(cx-gui-do cx-activate-item "MenuBar*PopupMenuCreate*Line/Rake...")
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry4(x1)" '( 80))
+(cx-gui-do cx-activate-item "Line/Rake Surface*PanelButtons*PushButton1(OK)")
+(cx-gui-do cx-activate-item "Line/Rake Surface*PanelButtons*PushButton2(Cancel)")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Surfaces|line-12"))
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Surfaces|line-12"))
+(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Surfaces|line-12"))
+(cx-gui-do cx-set-text-entry "Line/Rake Surface*Table1*TextEntry1(New Surface Name)" "horizontale")
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry1(x0)" '( 14.75))
+(cx-gui-do cx-activate-item "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry1(x0)")
+(cx-gui-do cx-activate-item "Line/Rake Surface*PanelButtons*PushButton1(OK)")
+
+Error: Surface creation failed!
+
+Error Object: #f
+(cx-gui-do cx-activate-item "Error*OK")
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry1(x0)" '( 14))
+(cx-gui-do cx-activate-item "Line/Rake Surface*PanelButtons*PushButton1(OK)")
+
+Error: Surface creation failed!
+
+Error Object: #f
+(cx-gui-do cx-activate-item "Error*OK")
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry1(x0)" '( 0))
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry1(x0)" '( 0.14))
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry1(x0)" '( 0.1475))
+(cx-gui-do cx-set-real-entry-list "Line/Rake Surface*Table1*Frame5(End Points)*Table1*RealEntry4(x1)" '( 0.8))
+(cx-gui-do cx-activate-item "Line/Rake Surface*PanelButtons*PushButton1(OK)")
+(cx-gui-do cx-activate-item "Line/Rake Surface*PanelButtons*PushButton2(Cancel)")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Surfaces|horizontale"))
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Graphics|Contours|contour-kinecticenergy"))
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Graphics|Contours|contour-kinecticenergy"))
+(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Graphics|Contours|contour-kinecticenergy"))
+(cx-gui-do cx-activate-item "Contours*PanelButtons*PushButton2(Cancel)")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Graphics|Contours|contour-pression"))
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Graphics|Contours|contour-pression"))
+(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Graphics|Contours|contour-pression"))
+(cx-gui-do cx-activate-item "Contours*PanelButtons*PushButton1(OK)")
+(cx-gui-do cx-activate-item "Contours*PanelButtons*PushButton2(Cancel)")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Plots|XY Plot"))
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Plots|XY Plot"))
+(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Plots|XY Plot"))
+(cx-gui-do cx-set-text-entry "Solution XY Plot*Table1*TextEntry4(XY Plot Name)" "vitesse-horizontale")
+(cx-gui-do cx-set-list-selections "Solution XY Plot*Table1*Table3*Table1*DropDownList1(Y Axis Function)" '( 2))
+(cx-gui-do cx-activate-item "Solution XY Plot*Table1*Table3*Table1*DropDownList1(Y Axis Function)")
+(cx-gui-do cx-set-list-selections "Solution XY Plot*Table1*Table3*Table2*DropDownList1(X Axis Function)" '( 0))
+(cx-gui-do cx-activate-item "Solution XY Plot*Table1*Table3*Table2*DropDownList1(X Axis Function)")
+(cx-gui-do cx-set-list-selections "Solution XY Plot*Table1*Table3*Frame3*List1(Surfaces)" '( 7))
+(cx-gui-do cx-activate-item "Solution XY Plot*Table1*Table3*Frame3*List1(Surfaces)")
+(cx-gui-do cx-activate-item "Solution XY Plot*PanelButtons*PushButton1(OK)")
+(cx-gui-do cx-set-toggle-button2 "Solution XY Plot*Table1*Table1*ButtonBox1(Options)*CheckButton4(Write to File)" #t)
+(cx-gui-do cx-activate-item "Solution XY Plot*Table1*Table1*ButtonBox1(Options)*CheckButton4(Write to File)")
+(cx-gui-do cx-activate-item "Solution XY Plot*PanelButtons*PushButton1(OK)")
+(cx-gui-do cx-set-file-dialog-entries "Select File" '( "vitessehorizontale") "All Files (*)")
+(cx-gui-do cx-set-list-selections "Solution XY Plot*Table1*Table3*Table1*DropDownList1(Y Axis Function)" '( 3))
+(cx-gui-do cx-activate-item "Solution XY Plot*Table1*Table3*Table1*DropDownList1(Y Axis Function)")
+(cx-gui-do cx-set-toggle-button2 "Solution XY Plot*Table1*Table1*ButtonBox1(Options)*CheckButton4(Write to File)" #f)
+(cx-gui-do cx-activate-item "Solution XY Plot*Table1*Table1*ButtonBox1(Options)*CheckButton4(Write to File)")
+(cx-gui-do cx-activate-item "Solution XY Plot*PanelButtons*PushButton1(OK)")
+(cx-gui-do cx-set-toggle-button2 "Solution XY Plot*Table1*Table1*ButtonBox1(Options)*CheckButton4(Write to File)" #t)
+(cx-gui-do cx-activate-item "Solution XY Plot*Table1*Table1*ButtonBox1(Options)*CheckButton4(Write to File)")
+(cx-gui-do cx-activate-item "Solution XY Plot*PanelButtons*PushButton1(OK)")
+(cx-gui-do cx-set-file-dialog-entries "Select File" '( "khorizontale") "XY Files (*.xy)")
+(cx-gui-do cx-activate-item "Solution XY Plot*PanelButtons*PushButton2(Cancel)")
+(cx-gui-do cx-activate-item "MenuBar*WriteSubMenu*Case & Data...")
+(cx-gui-do cx-set-file-dialog-entries "Select File" '( "simulation.cas.h5") "CFF Case/Data Files (*.cas.h5 *.dat.h5 )")
+(cx-gui-do cx-activate-item "Question*OK")
+
+Writing to DESKTOP-Q48GHOV:"D:/ECL/TP2FLEJET/Etude numerique (simulation)/simulation.cas.h5" in NODE0 mode and compression level 1 ...
+       17950 cells,     1 zone  ...
+       36240 faces,     7 zones ...
+       18291 nodes,     1 zone  ...
+  Done.
+Done.
+
+Writing to DESKTOP-Q48GHOV:"D:/ECL/TP2FLEJET/Etude numerique (simulation)/simulation.dat.h5" in NODE0 mode and compression level 1 ...
+  Writing results.
+Done.
+/exit y
+Auto-Transcript Stop Time:  07:01:31, 25 Nov 2022 Hora oficial do Brasil 
+Total Transcript Time: 15 Minute 9 Second.
