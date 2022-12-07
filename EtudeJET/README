@@ -1,0 +1,4 @@
+Estudo realizado para um trabalho na École Centrale de Lyon em 2022 na matéria de Dinâmica dos Fluídos.
+Estudo de um jato de ar livre realizado em laboratório e então ensaiado através de simulação numérica utilizando o Fluent
+aplicativo bem conhecido no meio de CFD por sua simplicidade, que fica óbvia quando comparamos este trabalho com os outros contidos
+nesse repositório utilizando o OpenFOAM, ferramenta muito mais complexa, mas também mais adaptável.
